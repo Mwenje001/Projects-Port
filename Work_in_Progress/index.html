@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Suitable House with US</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div id="page" class="site">
+        
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo">
+                        <a href="/"><span class="circle"></span> .Afri<span class="afrigreen">Sole</span> </a></div>
+                        <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <div class="thetop-nav"></div>
+            </div>
+        </aside>
+
+        <!-- Header Starts Here -->
+        <header>
+
+            <!-- Header Top Elements -->
+            <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Featured Houses</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Sign UP</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Searched</a></li>
+                                <li><a href="#">Currency <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul>
+                                        <li class="current"><a href="#">Ksh</a></li>
+                                        <li><a href="#">UGsh</a></li>
+                                        <li><a href="#">TZsh</a></li>
+                                        <li><a href="#">USD</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Language <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul>
+                                        <li class="current"><a href="#">Kiswahili</a></li>
+                                        <li><a href="#">English</a></li>
+                                        <li><a href="#">French</a></li>
+                                        <li><a href="#">Chinese</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Navigation -->
+            <div class="header-nav">
+                <div class="container">
+
+                    <div class="wrapper flexitem">
+                        <a href="#" class="trigger desktop-hide"><span> <i class="ri-menu-2-line"></i></span></a>
+                        
+                        <div class="left flexitem">
+                            <div class="logo"><a href="/"><span class="circle"></span>.Afri<span class="afrigreen">Sole</span></a></div>                           
+                            <nav class="mobile-hide">
+                                <ul class="flexitem second-links">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Categories</a></li>
+                                    <!-- <li><a href="#">Own Compound</a></li> -->
+                                    <li class="has-child">
+                                        <a href="#">Apartments
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega">
+                                            <div class="container">
+                                                <div class="wrapper">
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>To Let</h4>
+                                                            <ul>
+                                                                <li><a href="#">Single Rooms</a></li>
+                                                                <li><a href="#">Bedsitters</a></li>
+                                                                <li><a href="#">Studio</a></li>
+                                                                <li><a href="#">One Bedroom</a></li>
+                                                                <li><a href="#">Two Bedroomed</a></li>
+                                                                <li><a href="#">Three Bedroomed</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>For Sale</h4>
+                                                            <ul>
+                                                                <li><a href="">Studio</a></li>
+                                                                <li><a href="">One Bedroom</a></li>
+                                                                <li><a href="">Two Bedroom</a></li>
+                                                                <li><a href="">Off Plan</a></li>
+                                                                <li><a href="">Three Bedroom</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Rent to Own</h4>
+                                                            <ul>
+                                                                <li><a href="">Studio</a></li>
+                                                                <li><a href="">One Bedroom</a></li>
+                                                                <li><a href="">Two Bedroom</a></li>
+                                                                <li><a href="">Two Bedroom (Furnished)</a></li>
+                                                                <li><a href="">Three Bedroom</a></li>
+                                                                <li><a href="">Three Bedroom (Furnished)</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Luxury Apartments</h4>
+                                                            <ul class="luxury-options">
+                                                                <li><a href="">One Bedroom</a></li>
+                                                                <li><a href="">Two Bedroom</a></li>
+                                                                <li><a href="">Three Bedroom</a></li>
+                                                                <li><a href="">Studio</a></li>
+                                                                <li><a href="">Furnished</a></li>
+                                                            </ul>
+                                                            <a href="#" class="view-all">View all Options <i class= "ri-arrow-right-line"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol products">
+                                                        <div class="row">
+                                                            <div class="media">
+                                                                <div class="thumbnail object-cover">
+                                                                    <a href=""><img src="Images/products/49635199543_11e4efccfd_b.jpg" alt="">
+                                                                    </a>
+                                                                    </div>
+                                                            </div>
+                                                            <div class="text-content">
+                                                                <h4>Most Searched</h4>
+                                                                <a href="#" class="primary-button">Own One Now
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">Deliveries
+                                            <div class="fly-item"><span>New!</span></div>  
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li>
+                                    <a href="#" class="mobile-hide">
+                                        <div class="icon-large"><i class="ri-heart-line"></i></div>
+                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="iscart">
+                                        <div class="icon-large">
+                                            <i class="ri-shopping-cart-line"></i>
+                                            <div class="fly-item"><span class="item-number">0</span></div>
+                                        </div>
+                                        <div class="icon-text">
+                                            <div class="mini-text">Total</div>
+                                            <div class="cart-total">$0.00</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+            <div class="header-main mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <div class="dpt-cat">
+                                <div class="dpt-head">
+                                    <div class="main-text">Shop for your New House!</div>
+                                    <div class="mini-text mobile-hide">Total 1059 Products</div>
+                                    <a href="#" class="dpt-trigger mobile-hide"> <i class="ri-menu-3-line ri-xl"></i></a>
+                                </div>
+
+                                <div class="dpt-menu">
+                                    <ul class="second-links">
+                                        <li class="has-child moving">
+                                            <a href="">
+                                                <div class="icon-large"><i class="ri-truck-line"></i></div>
+                                                Moving Services
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Studio</a></li>
+                                                <li><a href="#">One Bedroom</a></li>
+                                                <li><a href="#">Two Bedroom</a></li>
+                                                <li><a href="#">Three Bedroom</a></li>
+                                                <li><a href="#">Above 3-Bedroom</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child cleaning">
+                                            <a href="">
+                                                <div class="icon-large"><i class="ri-leaf-fill"></i></div>
+                                                Cleaning and Detailing
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Studio</a></li>
+                                                <li><a href="#">One Bedroom</a></li>
+                                                <li><a href="#">Two Bedroom</a></li>
+                                                <li><a href="#">Three Bedroom</a></li>
+                                                <li><a href="#">Above 3-Bedroom</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child fumigation">
+                                            <a href="">
+                                                <div class="icon-large"><i class="ri-bug-2-line"></i></div>
+                                                Fumigation
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Studio</a></li>
+                                                <li><a href="#">One Bedroom</a></li>
+                                                <li><a href="#">Two Bedroom</a></li>
+                                                <li><a href="#">Three Bedroom</a></li>
+                                                <li><a href="#">Above 3-Bedroom</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-file-paper-line"></i></div>
+                                                Wallpapers
+                                            </a>
+                                        </li>
+                                        <li class="has-child paint">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-paint-brush-line"></i></div>
+                                                Paint
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Exterior</a></li>
+                                                <li><a href="#">Interior</a></li>
+                                                <li><a href="#">Special Effects</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- <li class="has-child electronics">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-device-line"></i></div>
+                                                Electronics
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Sound System</a></li>
+                                                <li><a href="#">Fixtures</a></li>
+                                                <li><a href="#">Television</a></li>
+                                                <li><a href="#">Instant Shower</a></li>
+                                                <li><a href="#">Kitchen</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li class="has-child cabinetry">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-fridge-line"></i></div>
+                                                Cabinetry
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Kitchen and Dining</a></li>
+                                                <li><a href="">Pantry</a></li>
+                                                <li><a href="">Bedroom</a></li>
+                                                <li><a href="">Living Room</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child wall-hangings">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-image-2-line"></i></div>
+                                                Wall Hangings
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">A4</a></li>
+                                                <li><a href="#">A3</a></li>
+                                                <li><a href="">A2</a></li>
+                                                <li><a href="">A1</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child safety">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-shield-check-line"></i></div>
+                                                Safety Installations
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Ventilations</a></li>
+                                                <li><a href="#">Fire Extiguisher</a></li>
+                                                <li><a href="">Gas Leak</a></li>
+                                                <li><a href="">Electrical Installation</a></li>
+                                            </ul>
+                                        </li>    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="search-box">
+                                <form action="" class="search">
+                                    <span class="icon-large"><i class="ri-search-line"></i></span>
+                                    <input type="search" placeholder="Search for Services">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+        
+        <!-- Main Part of the body Starts Here. -->
+        <main>
+            <!-- Slider Starts Here. -->
+            <div class="slider">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="myslider swiper">
+                            <div class="swiper-wrapper">
+                                
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="Images/slider/Apartment 01.webp" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Our Apartment Selection</h4>
+                                            <h2><span>Visit and Own One!</span><br><span>Newly Built Houses</span></h2>
+                                            <a href="" class="primary-button">Get One Now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="Images/slider/clean.jpeg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Our Services</h4>
+                                            <h2><span>Professional Cleaners</span><br><span>Budget | Convinient | Efficient</span></h2>
+                                            <a href="" class="primary-button">Call Now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="Images/slider/fumigation.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Our Services</h4>
+                                            <h2><span>Bugs and Germs!</span><br><span>Guaranteed Elimination</span></h2>
+                                            <a href="" class="primary-button">Call Now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="image object-cover">
+                                                <img src="Images/slider/Moving.webp" alt="">
+                                            </div>
+                                            <div class="text-content flexcol">
+                                                <h4>Moving!</h4>
+                                                <h2><span>Moving made Easy</span><br><span>Goods insured during Transit</span></h2>
+                                                <a href="" class="primary-button">Get One Now!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="location">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="item">
+                            <a href="#"><img src="Images/locations/Kiambu.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="Images/locations/Kisumu.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="Images/locations/Nairobi.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="Images/locations/Nakuru.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="Images/locations/Mombasa.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sectop flexitem">
+                            <h2><span class="circle"></span><span>Popular Services</span></h2>
+                        </div>
+                        <div class="column">
+                            <div class="flexwrap">
+                                <div class="row products big">
+                                    <div class="item">
+                                        <div class="offer">
+                                            <p>Offer Ends at</p>
+                                            <ul class="flexcenter">
+                                                <li>1</li>
+                                                <li>15</li>
+                                                <li>27</li>
+                                                <li>60</li>
+                                            </ul>
+                                        </div>
+                                        <div class="media">
+                                            <div class="image"><a href=""><img src="Images/slider/Person Cleaning.avif" alt=""></a></div>
+                                            
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter">
+                                                <span>31%</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <h3 class="main-links"><a href="">Spotlessly Clean</a></h3>
+                                            <div class="price">
+                                                <span class="current">$12.99</span>
+                                                <span class="normal mini-text">$18.99</span>
+                                            </div>
+                                            <div class="stock mini-text">
+                                                <div class="qty">
+                                                    <span>Stock: <strong class="qty-available">107</strong></span>
+                                                    <span>Sold: <strong class="qty-available">3.459</strong></span>
+                                                </div>
+                                                <div class="bar">
+                                                    <div class="available"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row products mini">
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href=""><img src="Images/slider/f-u-migating.png" alt=""></a></div>
+                                            
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter">
+                                                <span>31%</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <h3 class="main-links"><a href="">Eliminate the Annoying Bugs!</a></h3>
+                                            <div class="price">
+                                                <span class="current">$12.99</span>
+                                                <span class="normal mini-text">$18.99</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Call Toll-Free</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="row products mini">
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href=""><img src="Images/slider/Cartons.webp" alt=""></a></div>
+                                            
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>31%</span></div>
+                                        </div>
+
+                                        <div class="content">
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <h3 class="main-links"><a href="">Secure Goods In-Transit</a></h3>
+                                            <div class="price">
+                                                <span class="current">$129.9</span>
+                                                <span class="normal mini-text">$18.99</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Call Toll-Free</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- The Footer Starts Here -->
+        <footer></footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="Javascript/index.js"></script>
+</body>
+</html>
