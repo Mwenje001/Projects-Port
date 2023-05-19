@@ -1,0 +1,123 @@
+/* General */
+:root{
+    --bg-color: #ecf0f3;
+    --box-shadow: 12px 12px 20px #cbced1, 
+                -12px -12px 20px #ffffff;
+    --box-shadow_2: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+    --box-shadow_3: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    --box-shadow_4: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                    inset -5px, -5px, 8px #fff;
+    --bg_2: rgb(213, 213, 213);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after, ::before{
+    box-sizing: border-box;
+}
+
+/* HTML Elements */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+}
+
+/* div classes */
+.container{
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+.display #screen{
+    width: 100%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: .5em;
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow_2);
+}
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg_2);
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow_3);
+    transition: .1s;
+}
+.btns .row button:hover{
+    box-shadow: var(--box-shadow_4);
+                background: #fff;
+}
+#eval{
+    background: #000000;
+    color: #fff;
+}
+#eval:hover{
+    box-shadow: inset 5px 5px 8px #353535;
+                inset: -5px -5px 8px #737373; 
+}
+
+#ac:hover{
+    box-shadow: inset 5px 5px 8px #353535;
+                inset: -5px -5px 8px #737373; 
+}
+
+#ce:hover{
+    box-shadow: inset 5px 5px 8px #353535;
+                inset: -5px -5px 8px #737373; 
+}
+
+.symbols{
+    display: none;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .symbols{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* min-width: 370px; */
+    }
+    .btns .row button{
+        width: 70px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .mobile-hide{
+        display: none;
+    }
+}
+
