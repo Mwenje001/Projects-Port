@@ -173,7 +173,7 @@ font-family: 'Rubik', sans-serif; */
     .img-border::before{
         content: '';
         position: absolute;
-        background: url(../images/fff-removebg-preview.png);
+        background: url(../images/HD.png);
         left: -40px;
         width: 100%;
         height: 100%;
